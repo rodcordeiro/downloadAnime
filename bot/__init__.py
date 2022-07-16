@@ -35,7 +35,6 @@ class Bot:
         profile = webdriver.Chrome(
             options=options, executable_path="./drivers/chromedriver_v103.exe"
         )
-        """Instancia do selenium """
         self.driver = profile
         logging("Iniciando browser")
 
